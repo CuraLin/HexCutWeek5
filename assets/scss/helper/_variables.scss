@@ -310,7 +310,7 @@ $dark:          $gray-900 !default;
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
-  "primary":    $primary,
+  "primary":    #7000FF,  //customCura
   "secondary":  $secondary,
   "success":    $success,
   "info":       $info,
@@ -337,7 +337,7 @@ $escaped-characters: (
 $enable-caret:                true !default;
 $enable-rounded:              true !default;
 $enable-shadows:              false !default;
-$enable-gradients:            false !default;
+$enable-gradients:            true !default;
 $enable-transitions:          true !default;
 $enable-reduced-motion:       true !default;
 $enable-smooth-scroll:        true !default;
@@ -378,7 +378,8 @@ $spacers: (
   2: $spacer * .5,
   3: $spacer,
   4: $spacer * 1.5,
-  5: $spacer * 3,
+  5: $spacer * 2.5,
+  6: $spacer * 3,
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -543,8 +544,9 @@ $aspect-ratios: (
 $font-family-sans-serif:      system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 // stylelint-enable value-keyword-case
-$font-family-base:            var(--#{$prefix}font-sans-serif) !default;
+$font-family-base:           'Noto Sans JP','Noto Sans KR','Noto Sans TC',sans-serif,'Shrikhand',cursive ;  //customCura
 $font-family-code:            var(--#{$prefix}font-monospace) !default;
+
 
 // $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
 // $font-size-base affects the font size of the body text
@@ -572,6 +574,7 @@ $h3-font-size:                $font-size-base * 1.75 !default;
 $h4-font-size:                $font-size-base * 1.5 !default;
 $h5-font-size:                $font-size-base * 1.25 !default;
 $h6-font-size:                $font-size-base !default;
+
 // scss-docs-end font-variables
 
 // scss-docs-start font-sizes
@@ -581,7 +584,9 @@ $font-sizes: (
   3: $h3-font-size,
   4: $h4-font-size,
   5: $h5-font-size,
-  6: $h6-font-size
+  6: $h6-font-size,
+  80:80px,
+  96: 96px,
 ) !default;
 // scss-docs-end font-sizes
 
