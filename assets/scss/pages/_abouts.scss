@@ -1,4 +1,20 @@
-.abous-content-py{
+.abous-content-py {
     padding-top: 160px;
     padding-bottom: 172px;
+}
+
+.abous-content {
+    border-bottom: 1px solid #000;
+    padding-top: 40px;
+    padding-right: 80px;
+    padding-left: 80px;
+
+    .content--menu {
+        display: flex;
+
+        &--list {
+            width: 30%;
+            
+        }
+    }
 }
