@@ -1,16 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>about</title>
-  </head>
-  <body>
-    <%- include('./layout/header'); -%>
-    <h1>我是about</h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>about</title>
+</head>
+
+<body>
+  <%- include('./layout/header'); -%>
+    <main class="bg-dark bg-gradient abous-content-py">
+      <div class="container">
+
+        <h1 class="display-5 text-light fw-black mb-7">關於我們</h1>
+        <div class="row jc-between text-light mb-36">
+          <p class="col-6 ">
+            創立於2021年，我們的使命是將科技與人性化設計相結合，為您打造最佳的3D立體投影陪伴機器人。憑藉創新的技術、卓越的研發團隊以及對品質的追求，我們致力於為全球用戶提供最先進且易用的陪伴機器人。</p>
+          <ul class="col-4 list-unstyled ">
+            <li class="fs-14">我們擁抱變革，追求技術創新，以提供更卓越的產品給全球用戶。</li>
+            <li class="fs-14">我們始終以用戶需求為核心，致力於提供最滿意的產品與服務。</li>
+            <li class="fs-14">我們堅持高品質標準，確保每一款產品都經過嚴格的測試與品質把控。</li>
+            <li class="fs-14">我們重視團隊協作，鼓勵創意交流，共同為實現願景而努力。</li>
+          </ul>
+        </div>
+        <div class="bg-cover   "
+          style="background:url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/about_us.png?raw=true);background-size: cover;  height:280px;">
+
+        </div>
+      </div>
+
+
+
+      <div class=" pt-8">
+        <div class="container ">
+          <div class="row jc-center">
+            <div class="col-1 ">
+              <span class="material-symbols-outlined fs-80 text-light ">emergency</span>
+            </div>
+            <div class="col-7">
+              <p class="text-light">我們相信科技的力量能夠改變人類生活。通過不斷創新與優化，我們期待為您打造一款具有高度智能、豐富功能且呈現真實感的3D立體投影陪伴機器人，讓科技成為您生活中真誠的夥伴。
+              </p>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+
+
+
+
     <%- include('./layout/footer'); -%>
 
-    <script type="module" src="../main.js"></script>
-  </body>
+      <script type="module" src="../main.js"></script>
+</body>
+
 </html>
