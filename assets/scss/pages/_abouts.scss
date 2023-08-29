@@ -1,20 +1,47 @@
-.abous-content-py {
-    padding-top: 160px;
-    padding-bottom: 172px;
+
+
+.abouts__bg {
+    background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/about_us.png?raw=true);
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+
+    @include pad {
+        background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/mobile/about_us_mobile.png?raw=true);
+        background-size: cover;
+        background-position: center;
+    }
 }
 
-.abous-content {
-    border-bottom: 1px solid #000;
-    padding-top: 40px;
-    padding-right: 80px;
-    padding-left: 80px;
 
-    .content--menu {
-        display: flex;
+.abous__content__textleft {
+    width: 43%;
 
-        &--list {
-            width: 30%;
-            
-        }
+    @include pad {
+        width: 100%;
     }
+}
+
+.abous__content__textright {
+    width: 28%;
+
+    @include pad {
+        width: 100%;
+    }
+}
+
+.text-highline {
+    position: relative;
+
+}
+
+.text-highline::before {
+    content: "";
+    z-index: -1;
+    width: 80px;
+    height: 12px;
+    background: #E9E2F3;
+    position: absolute;
+    top: 50%;
+    right: -12%;
 }

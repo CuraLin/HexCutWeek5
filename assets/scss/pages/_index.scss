@@ -1,2 +1,39 @@
+.home__banner {
+    background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/home_background.png?raw=true);
+    height: 880px;
+    background-size: cover;
+    background-position: center;
+}
+
+// .alphaboxCircle {
+//     width: 196px;
+//     animation-name: rotate;
+//     animation-duration: 4s;
+//     animation-timing-function: ...;
+//     animation-iteration-count: infinite;
+//     animation-fill-mode: both;
+// }
+
+// @keyframes rotate {
+//     0% {
+//         ...
+//     }
+
+//     100% {
+//         ...
+//     }
+// }
+.home__content {
+    height: 1089px;
+    background-image:url(https://lurl.cc/imoTYx) ;
+    background-repeat: no-repeat;
+    background-color:rgba(40, 8, 92, 0.8);
+   
+
+    .home__content__bg {
+        background: url(https://lurl.cc/imoTYx);
+        // background: url(https://lurl.cc/imoTYx);
+    }
 
 
+}

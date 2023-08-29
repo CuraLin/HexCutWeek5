@@ -311,7 +311,7 @@ $dark:          $gray-900 !default;
 // scss-docs-start theme-colors-map
 $theme-colors: (
   "primary":    #7000FF,  //customCura
-  "secondary":  $secondary,
+  "secondary":  #300871,  //customCura
   "success":    $success,
   "info":       $info,
   "warning":    $warning,
@@ -345,7 +345,7 @@ $enable-grid-classes:         true !default;
 $enable-container-classes:    true !default;
 $enable-cssgrid:              false !default;
 $enable-button-pointers:      true !default;
-$enable-rfs:                  true !default;
+$enable-rfs:                  false !default;
 $enable-validation-icons:     true !default;
 $enable-negative-margins:     false !default;
 $enable-deprecation-messages: true !default;
@@ -383,8 +383,14 @@ $spacers: (
   7: $spacer * 2.5,
   8: $spacer * 3,
   9: $spacer * 3.75,
+  12:12px,
   36:36px,
+  44:44px,
+  56:56px,
+  60:60px,
   80:80px,
+  96:96px,
+  160:160px,
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -395,8 +401,12 @@ $spacers: (
 // scss-docs-start position-map
 $position-values: (
   0: 0,
+  25:25%,
   50: 50%,
-  100: 100%
+  75:75%,
+  100: 100%,
+  56:56px,
+  152:152px,
 ) !default;
 // scss-docs-end position-map
 
@@ -489,7 +499,8 @@ $border-widths: (
   2: 2px,
   3: 3px,
   4: 4px,
-  5: 5px
+  5: 5px,
+  12:12px,
 ) !default;
 
 $border-style:                solid !default;
@@ -566,6 +577,7 @@ $font-weight-normal:          400 !default;
 $font-weight-semibold:        600 !default;
 $font-weight-bold:            700 !default;
 $font-weight-bolder:          bolder !default;
+$font-weight-black:          900 !default;   
 
 $font-weight-base:            $font-weight-normal !default;
 

@@ -12,6 +12,8 @@
 // @import './layout/header.scss';
 // @import './layout/footer.scss';
 
+//utilities
+@import "./utilities/mixin";
 
 @import './pages/index.scss';
 @import "./pages/abouts";

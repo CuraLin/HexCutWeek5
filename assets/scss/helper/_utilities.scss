@@ -164,8 +164,11 @@ $utilities: map-merge(
     "width": (
       property: width,
       class: w,
+      responsive: true,
       values: (
+        23:23%,
         25: 25%,
+        29:29%,
         50: 50%,
         75: 75%,
         100: 100%,
@@ -468,6 +471,18 @@ $utilities: map-merge(
       class: fs,
       values: map-merge($font-sizes, (auto: auto))
     ),
+    "letter-spacing": (
+     property: letter-spacing,
+      responsive: true,
+      values: (
+        1:0.5rem,
+        2:1rem,
+        3:2rem,
+        4:2.5rem,
+        5:5rem,
+      )
+    ),
+
     "font-style": (
       property: font-style,
       class: fst,
@@ -482,7 +497,8 @@ $utilities: map-merge(
         normal: $font-weight-normal,
         bold: $font-weight-bold,
         semibold: $font-weight-semibold,
-        bolder: $font-weight-bolder
+        bolder: $font-weight-bolder,
+        black: $font-weight-black,
       )
     ),
     "line-height": (
