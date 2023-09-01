@@ -6,46 +6,59 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>index</title>
-  <script type="module" crossorigin src="/HexCutWeek5/assets/main-0757f58d.js"></script>
-  <link rel="stylesheet" href="/HexCutWeek5/assets/main-fac7efe6.css">
+  <script type="module" crossorigin src="/HexCutWeek5/assets/main-acc62586.js"></script>
+  <link rel="stylesheet" href="/HexCutWeek5/assets/main-56bbef50.css">
 </head>
 
 <body>
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
-<header class="navbar  navbar-expand-lg bg-primary bg-gradient py-lg-3 pt-3 pb-4 ">
-    <div class="container ">
-        <h1 class="mb-0 lh-base fs-4 fs-md-2 nav-link"><a href="#"
-                class="text-white font-en text-decoration-none">ALPHABOX+</a></h1>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span> </button>
-        <div class="collapse navbar-collapse flex-grow-0 mt-4 mt-lg-0" id="navbarSupportedContent">
-            <ul class=" navbar-nav  ">
-                <li class="nav-item text-center"><a href="#" class="nav-link text-white me-lg-6 ">產品</a></li>
-                <li class="nav-item text-center "><a href="about.html" class="nav-link text-white me-lg-6">關於我們</a>
-                </li>
-                <li class="nav-item text-center"><a href="#" class="nav-link text-white me-lg-6">最新消息</a></li>
-                <li class="nav-item text-center"><a href="#" class="nav-link text-white me-lg-6">FAQ</a></li>
-                <li class="nav-item text-center"><a href="#" class="nav-link text-white ">聯絡我們</a></li>
-            </ul>
+<div class="position-fixed w-100 z-index-5">
+    <div class="position-absolute bg-white navbar--border start-0 end-0"></div>
+    <nav class="navbar  navbar-expand-lg bg-primary-200  py-lg-3 pt-3 pb-4 ">
 
+        <div class="container ">
+            <!-- logo -->
+            <a class="text-decoration-none text-white font-en fs-4 fs-md-2 nav-brand">ALPHABOX+</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span> </button>
+
+            <!-- 選單 -->
+            <div class="navbar--dropdown  position-lg-static position-absolute start-0 end-0 flex-lg-grow-1 ">
+                <div class=" collapse navbar-collapse navbar-gradient" id="navbarSupportedContent">
+                    <!-- 中間navbar -->
+                    <ul class=" navbar-nav mx-auto pt-4 pt-lg-0 ">
+                        <li class="nav-item text-center me-lg-4"><a href="#" class="nav-link text-white  ">產品</a></li>
+                        <li class="nav-item text-center me-lg-4 "><a href="about.html" class="nav-link text-white">關於我們</a>
+                        </li>
+                        <li class="nav-item text-center me-lg-4"><a href="#" class="nav-link text-white ">最新消息</a></li>
+                        <li class="nav-item text-center me-lg-4"><a href="#" class="nav-link text-white ">FAQ</a></li>
+                        <li class="nav-item text-center"><a href="#" class="nav-link text-white ">聯絡我們</a></li>
+                    </ul>
+                    <!-- 右邊navbar -->
+                    <ul class="navbar-nav pb-5 pb-lg-0 ">
+                        <li class="nav-item text-center"><a href="" class="nav-link text-white me-lg-3 ">註冊</a></li>
+                        <li class="nav-item text-center"><a href="" class="nav-link text-white me-lg-3">登入</a></li>
+                        <li class="nav-item "><button type="button" class="btn btn-light d-flex mx-auto"><span
+                                    class="material-symbols-outlined me-1">point_scan</span>訂閱</button></li>
+                    </ul>
+                </div>
+
+
+            </div>
+           
         </div>
-        <div class="collapse navbar-collapse flex-grow-0 " id="navbarSupportedContent">
-            <ul class="navbar-nav ">
-                <li class="nav-item text-center"><a href="" class="nav-link text-white me-lg-3 ">註冊</a></li>
-                <li class="nav-item text-center"><a href="" class="nav-link text-white me-lg-3">登入</a></li>
-                <li class="nav-item "><button type="button" class="btn btn-light d-flex mx-auto"><span
-                            class="material-symbols-outlined me-1">point_scan</span>訂閱</button></li>
-            </ul>
-        </div>
-    </div>
-</header>    <div class="home__banner">
+    </nav>
+</div>    <!-- home-第一部分 時鐘 -->
+    <div class="home__banner pt-88 pt-lg-80">
       <div class="px-lg-80 pt-lg-60">
 
         <div class="d-flex jc-lg-between">
-          <!-- //sidenav-left -->
+          <!-- sidenav-left -->
           <div class="w-lg-23 border-bottom border-1 as-end">
             <h2 class="text-white fw-bold fs-lg-6"><a href="#" class="text-decoration-none text-white">最新消息！新版本 v15.4
                 釋出，搶先體驗！</a></h2>
@@ -64,33 +77,33 @@
           </div>
 
         </div>
-
+        <!-- 中間h1 -->
         <div class="pt-lg-56 d-flex jc-lg-between position-relative">
           <div class="position-absolute top-56 start-50 translate-middle-x">
 
-            <h2 class="font-en text-white fs-lg-2 letter-spacing-5 text-center mb-0">ALPHABOX+</h2>
+            <h1 class="font-en text-white fs-lg-2 letter-spacing-4 text-center mb-0">ALPHABOX+</h1>
             <p class="mb-0 text-white text-center letter-spacing-2">擁抱未來科技，專屬您的3D立體投影陪伴機器人</p>
           </div>
 
-          <div class="w-lg-23 position-relative position-absolute top-56 start-0  ">
+          <div class="w-lg-23 position-relative position-absolute top-56 start-0 z-index-1  ">
             <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/diane.png?raw=true"
               alt="diane" class="img-fluid   ">
             <p class="font-en text-white fs-lg-2 mb-lg-0 position-absolute start-50 top-0 translate-middle-x mt-3 ">
               Diane</p>
           </div>
-          <div class="w-lg-23 position-relative position-absolute top-152 start-25 ">
+          <div class="w-lg-23 position-relative position-absolute top-143 start-25 z-index-1 ">
             <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/felix.png?raw=true"
               alt="felix" class="img-fluid   ">
             <p class="font-en text-white fs-lg-2 mb-lg-0 position-absolute start-50 top-0 translate-middle-x mt-3 ">
               felix</p>
           </div>
-          <div class="w-lg-23 position-relative position-absolute top-152 start-50">
+          <div class="w-lg-23 position-relative position-absolute top-143 start-50 z-index-1 ">
             <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/karina.png?raw=true"
               alt="karina" class="img-fluid   ">
             <p class="font-en text-white fs-lg-2 mb-lg-0 position-absolute start-50 top-0 translate-middle-x mt-3 ">
               karina</p>
           </div>
-          <div class="w-lg-23 position-relative position-absolute top-56 start-75">
+          <div class="w-lg-23 position-relative position-absolute top-56 start-75 z-index-1 ">
             <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/vito.png?raw=true"
               alt="vito" class="img-fluid   ">
             <p class="font-en text-white fs-lg-2 mb-lg-0 position-absolute start-50 top-0 translate-middle-x mt-3 ">vito
@@ -114,14 +127,40 @@
       </div>
 
     </div>
-    <div class="home__content ">
-      
-      <!-- <div class="home__content__bg">
+    <!-- home-第二部分-機器人 -->
+    <div class="home__content position-relative">
 
-      </div> -->
-      <!-- <img src="https://lurl.cc/raBpuP" alt=""> -->
+      <img src="https://lurl.cc/imoTYx" alt="" class="home__content__png position-absolute start-0 top-o bottom-0">
+<h2>什麼是</h2>
+<h2>ALPHABOX+</h2>
+
+
     </div>
 
+    <!-- home-第三部分-最新消息 -->
+    <div class="bg-primary ">
+      <div class="container">
+        <h2 class="fw-bold display-5 text-white letter-spacing-2">最新消息</h2>
+        <div class=" border-top border-bottom border-1 py-lg-6 ">
+          <p class="fw-bold letter-spacing-2 text-white mb-lg-1 d-flex ai-center"><span
+              class="material-symbols-outlined me-1">emergency </span>2023.06.30</p>
+          <h3 class="fw-bold text-white fs-5 mb-lg-12">產品升級公告</h3>
+          <div class="row">
+            <div class="col-lg-9">
+              <p class="fw-bold text-white mb-0 ">榮幸地宣布，ALPHABOX+
+                已成功完成最新一代的升級！本次升級包括提升投影解析度、優化語音辨識技術，以及擴充情感識別功能。歡迎您了解本次升級帶來的更為卓越的性能！</p>
+            </div>
+            <div class="col-lg-2">
+
+              <span class="material-symbols-outlined  text-white fs-4">
+                line_end_arrow_notch
+              </span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
 
     <footer class="py-7 py-lg-8 ">
     <div class="container px-7 px-md-0 d-flex flex-column flex-lg-row jc-between ai-lg-center ">
