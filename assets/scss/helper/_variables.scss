@@ -310,8 +310,8 @@ $dark:          $gray-900 !default;
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
-  "primary":    #7000FF,  //customCura
-  "secondary":  #300871,  //customCura
+  "primary":    $primary,  
+  "secondary":  $secondary,  
   "success":    $success,
   "info":       $info,
   "warning":    $warning,
@@ -389,6 +389,7 @@ $spacers: (
   56:56px,
   60:60px,
   80:80px,
+  88:88px,
   96:96px,
   160:160px,
 ) !default;
@@ -406,7 +407,7 @@ $position-values: (
   75:75%,
   100: 100%,
   56:56px,
-  152:152px,
+  143:143px,
 ) !default;
 // scss-docs-end position-map
 

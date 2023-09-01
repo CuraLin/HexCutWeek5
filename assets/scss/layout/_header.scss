@@ -1,1 +1,33 @@
-  
+.navbar-gradient {
+    @include gradient-y(#7000FF, #11002D);
+
+    @include pc {
+        background-image: none;
+    }
+}
+
+.navbar--border {
+    z-index: 5;
+    top: 80px;
+    height: 1px;
+
+    @include pad {
+        top: 88px;
+    }
+
+    @include mobile {
+        top: 80px;
+    }
+}
+
+.navbar--dropdown {
+    top: 88px;
+
+    @include mobile {
+        top: 79px;
+    }
+}
+
+.z-index-5 {
+    z-index: 5;
+}

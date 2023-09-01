@@ -23,12 +23,16 @@
 //         ...
 //     }
 // }
+.home__content__png {
+    // background: url(https://lurl.cc/imoTYx);
+    z-index: 3;
+    height: 1089px;
+}
+
 .home__content {
     height: 1089px;
-    background-image:url(https://lurl.cc/imoTYx) ;
-    background-repeat: no-repeat;
-    background-color:rgba(40, 8, 92, 0.8);
-   
+    background-color: #300871;
+    z-index: 1;
 
     .home__content__bg {
         background: url(https://lurl.cc/imoTYx);
@@ -36,4 +40,8 @@
     }
 
 
+}
+
+.z-index-1 {
+    z-index: 1;
 }
