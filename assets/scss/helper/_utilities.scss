@@ -70,25 +70,30 @@ $utilities: map-merge(
     ),
     "top": (
       property: top,
+      responsive:ture,
       values: $position-values
     ),
     "bottom": (
       property: bottom,
+      responsive:ture,
       values: $position-values
     ),
     "start": (
       property: left,
+      responsive:ture,
       class: start,
       values: $position-values
     ),
     "end": (
       property: right,
+      responsive:ture,
       class: end,
       values: $position-values
     ),
     "translate-middle": (
       property: transform,
       class: translate-middle,
+      responsive:true,
       values: (
         null: translate(-50%, -50%),
         x: translateX(-50%),
@@ -199,6 +204,7 @@ $utilities: map-merge(
         50: 50%,
         75: 75%,
         100: 100%,
+        351:351px,
         auto: auto
       )
     ),
