@@ -3,6 +3,7 @@
     min-height: 880px;
     background-size: cover;
     background-position: center;
+
     @include pad {
         height: auto;
     }
@@ -29,11 +30,15 @@
 
 
 .home__content {
-    background-image:url(/assets/images/carousel_background.png),linear-gradient(#300871, #000000);
-   
+    background-image: url(/assets/images/carousel_background.png), linear-gradient(#300871, #000000);
+
     background-repeat: no-repeat;
     height: 1089px;
-   
+
+    @include pad {
+        height: auto;
+    }
+
 
 
     .home__content__line {
@@ -50,12 +55,15 @@
 
 
 }
-.bg__home__news{
-        @include radial-gradient(#28085c, #000000);
+
+.bg__home__news {
+    @include radial-gradient(#28085c, #000000);
 }
-.bg__home__use{
-@include radial-gradient(#000000, #28085c);
+
+.bg__home__use {
+    @include radial-gradient(#000000, #28085c);
 }
+
 .z-index-1 {
     z-index: 1;
 }
@@ -63,18 +71,26 @@
 .z-index-4 {
     z-index: 4;
 }
-.rotate{
+
+.rotate {
     rotate: 180deg;
 }
 
-.aicard__content {
-    background-color: #000000;
-    transition: 0.7s;
+.aicard__list--mobile {
+    @include mobile {
+        height: 406px;
+    }
 
-    &:hover {
-        background-color: #00000080;
+    .aicard__content {
+        background-color: #000000;
+        transition: 0.7s;
+
+        &:hover {
+            background-color: #00000080;
+        }
     }
 }
+
 // .swiper {
 //     overflow: initial;
 // }
