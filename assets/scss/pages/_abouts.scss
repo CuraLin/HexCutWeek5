@@ -1,4 +1,7 @@
+.bg__about{
+    @include gradient-x(#300871,#000000)
 
+}
 
 .abouts__bg {
     background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/about_us.png?raw=true);
@@ -44,4 +47,8 @@
     position: absolute;
     top: 50%;
     right: -12%;
+}
+.about__check--hover:hover{
+    transform: translate(4px, 0px) !important;
+        transition: 0.2s;
 }

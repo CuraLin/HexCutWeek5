@@ -103,3 +103,11 @@
 .swiper-scrollbar {
     background-color: #000;
 }
+
+.font-400{
+font-size: calc(1rem + 20vw) !important;
+}
+.contact--hover:hover{
+transform: translate(4px, 0) !important;
+    transition: 0.4s;
+}
